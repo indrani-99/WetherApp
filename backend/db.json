@@ -1,0 +1,55 @@
+{
+  "users": [
+    {
+      "username": "dilip",
+      "email": "dilip@gmail.com",
+      "password": "dilip123",
+      "favourites": [],
+      "id": "97c8"
+    },
+    {
+      "username": "mimi",
+      "email": "mimi@gmail.com",
+      "password": "mimi123",
+      "favourites": [],
+      "id": "c3fb"
+    },
+    {
+      "username": "indra",
+      "email": "indra@gmail.com",
+      "password": "indra123",
+      "favourites": [],
+      "id": "e498"
+    },
+    {
+      "id": "f1c1",
+      "username": "a",
+      "email": "a@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "17b6",
+      "username": "a",
+      "email": "a@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "d933",
+      "username": "surabhi",
+      "email": "surabhi@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "e161",
+      "username": "bicky",
+      "email": "bicky@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "4bfe",
+      "username": "ricky",
+      "email": "ricky@gmail.com",
+      "password": "123"
+    }
+  ]
+}
