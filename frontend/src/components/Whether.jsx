@@ -1,5 +1,7 @@
 import { useRef, useState } from "react";
 import axios from 'axios'
+import { FaCloud } from "react-icons/fa";
+import { FaCloudRain } from "react-icons/fa";
 function Whether(){
 const [dataTemp, setDataTemp]=useState(null);
 const [foreCastData, setForecastData]=useState(null);
@@ -61,8 +63,9 @@ let api_key='703094c982d25396a558356b9add8199&units=metric';
                     }}>
                         {foreCastData.list.filter(item => item.dt_txt.includes('00:00:00')).map((element,index)=>(
                             <div key={index} style={{ textAlign: "center" }}>
-                                <p>{new Date(element.dt_txt).toLocaleDateString()}</p>
-                                <p>{Math.floor(element.main.temp)}&deg;C</p>
+                                <h4>{new Date(element.dt_txt).toLocaleDateString()}</h4>
+                              <FaCloud/>
+                                <h3>{Math.floor(element.main.temp)}&deg;C</h3>
                             </div>
                         ))}
                     </div>
